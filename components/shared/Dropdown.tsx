@@ -25,7 +25,7 @@ import { createCategory, getAllCategories } from '@/lib/actions/category.actions
   
 
 type DropdownProps = {
-	value?: string
+	value?: string,
 	onChangeHandler?: () => void
 }
 

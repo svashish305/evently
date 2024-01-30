@@ -7,8 +7,8 @@ import React from 'react'
 import { DeleteConfirmation } from './DeleteConfirmation'
 
 type CardProps = {
-	event: IEvent
-	hasOrderLink?: boolean
+	event: IEvent,
+	hasOrderLink?: boolean,
 	hidePrice?: boolean
 }
 
