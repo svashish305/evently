@@ -20,7 +20,6 @@ const EventDetails = async ({ params: { id }, searchParams }: SearchParamProps) 
 		<>
 			<section className="flex justify-center bg-primary-50 bg-dotted-pattern bg-contain">
 				<div className="grid grid-cols-1 md:grid-cols-2 2xl:max-w-7xl">
-					<p>Timezone: {Intl.DateTimeFormat().resolvedOptions().timeZone}</p>
 					<Image 
 						src={event.imageUrl}
 						alt="hero image"
